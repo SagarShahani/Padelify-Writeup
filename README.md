@@ -88,11 +88,15 @@ We used a payload that avoided the word cookie using concatenation.
 
 🔸 Listener
 python3 -m http.server 9001
+<img width="1919" height="1014" alt="Cookies" src="https://github.com/user-attachments/assets/272ba169-f0a9-4eea-b95f-3ab96649fe6a" />
 
 
 When the moderator viewed the entry, the session cookie was captured.
+<img width="1405" height="255" alt="Update Cookie" src="https://github.com/user-attachments/assets/30de5053-7693-42e4-936c-556925565e3c" />
 
 🎉 Moderator Flag Obtained
+<img width="1919" height="1014" alt="Moderator Flag" src="https://github.com/user-attachments/assets/baf11635-6475-4164-9ab1-6bcfa4f975a8" />
+
 THM{REDUCTED}
 
 📂 LFI Exploitation → Admin Credentials
@@ -108,6 +112,8 @@ With moderator access, the page /live.php?page= showed signs of LFI.
 Encoding slashes (/ → %2F) bypassed filtering:
 
 http://<TARGET_IP>/live.php?page=%2Fconfig%2Fapp.conf
+
+![Admin Credentionals](https://github.com/user-attachments/assets/36410d6d-8040-47b3-9397-dc80390bcd57)
 
 
 This successfully revealed:
@@ -125,6 +131,8 @@ Password: bL}8,S9W1o44
 Upon login, the final admin flag is displayed.
 
 🎉 Admin Flag Obtained
+<img width="1913" height="1012" alt="Admin Flag" src="https://github.com/user-attachments/assets/78757e23-f70b-4935-9d09-d33fcf58343e" />
+
 THM{REDACTED_ADMIN_FLAG}
 
 🛠 Tools Used
@@ -134,7 +142,8 @@ gobuster	Directory Enumeration
 Python HTTP Server	Cookie exfil listener
 Burp Suite	Interception & testing payloads
 Browser DevTools	Cookie replacement
-🖼 Screenshot Placeholders
+<img width="1913" height="1012" alt="Admin Flag" src="https://github.com/user-attachments/assets/cfb641e5-e873-42b2-9bf6-9b13d6cf4bc3" />
+
 
 Replace with real screenshots once you upload them.
 
@@ -149,3 +158,4 @@ Replace with real screenshots once you upload them.
 Sagar Ali
 Cybersecurity Student · Web Exploitation · CTF Player
 GitHub: your‑github‑username
+<img width="1913" height="1012" alt="Screenshot From 2025-11-23 03-56-48" src="https://github.com/user-attachments/assets/fda2125c-0f12-4acf-99db-03d499a7abc0" />
