@@ -2,7 +2,9 @@
 TryHackMe Padelify CTF completed using enumeration, role manipulation, and privilege escalation.
 # 🏓 Padelify — TryHackMe CTF Writeup  
 **Difficulty:** Medium  
-**Skills:** WAF Evasion · Blind XSS · LFI · Session Hijacking · Web Enumeration
+**Skills:** WAF Evas<img width="900" height="900" alt="Padelify" src="https://github.com/user-attachments/assets/285e8cf0-f8ad-4e78-bea0-6867df6f4bb0" />
+ion · Blind XSS · LFI · Session Hijacking · Web Enumeration
+![Uploading Padelify.png…]()
 
 ---
 
